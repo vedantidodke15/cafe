@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>MORI CAFÉ | Reserve a Table</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+      <a href="index.html" class="logo">
+        MORI
+
+        <span> CAFÉ </span>
+      </a>
+
+      <nav>
+        <a href="index.html"> Home </a>
+
+        <a href="menu.html"> Menu </a>
+
+        <a href="about.html"> Our Story </a>
+
+        <a href="gallery.html"> Gallery </a>
+
+        <a href="locations.html"> Locations </a>
+      </nav>
+
+      <a href="contact.html" class="nav-button"> Reserve Table </a>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="reserve-hero">
+      <div class="reserve-overlay"></div>
+
+      <div class="reserve-hero-content">
+        <p class="eyebrow">MORI CAFÉ</p>
+
+        <h1>
+          Reserve<br />
+          a Table
+        </h1>
+      </div>
+    </section>
+
+    <!-- ================= RESERVATION ================= -->
+
+    <section class="reservation-section">
+      <!-- LEFT SIDE -->
+
+      <div class="reservation-info">
+        <p class="eyebrow dark">MAKE IT A MOMENT</p>
+
+        <h2>
+          Your table<br />
+          is waiting.
+        </h2>
+
+        <p class="reservation-text">
+          Planning a breakfast, lunch, dinner or coffee with friends? Reserve
+          your table at MORI and enjoy your time with us.
+        </p>
+
+        <div class="contact-details">
+          <div>
+            <h4>OPENING HOURS</h4>
+
+            <p>
+              Monday – Sunday
+              <br />
+              8:00 AM – 11:00 PM
+            </p>
+          </div>
+
+          <div>
+            <h4>PHONE</h4>
+
+            <p>+91 90000 00000</p>
+          </div>
+
+          <div>
+            <h4>EMAIL</h4>
+
+            <p>hello@moricafe.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE FORM -->
+
+      <div class="reservation-box">
+        <form action="#" method="post">
+          <!-- NAME -->
+
+          <div class="form-group">
+            <label for="name"> Your Name </label>
+
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <!-- PHONE -->
+
+          <div class="form-group">
+            <label for="phone"> Phone Number </label>
+
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Enter your phone number"
+              required
+            />
+          </div>
+
+          <!-- EMAIL -->
+
+          <div class="form-group">
+            <label for="email"> Email </label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <!-- DATE + TIME -->
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date"> Date </label>
+
+              <input type="date" id="date" name="date" required />
+            </div>
+
+            <div class="form-group">
+              <label for="time"> Time </label>
+
+              <input type="time" id="time" name="time" required />
+            </div>
+          </div>
+
+          <!-- GUESTS -->
+
+          <div class="form-group">
+            <label for="guests"> Number of Guests </label>
+
+            <select id="guests" name="guests">
+              <option value="1">1 Guest</option>
+
+              <option value="2" selected>2 Guests</option>
+
+              <option value="3">3 Guests</option>
+
+              <option value="4">4 Guests</option>
+
+              <option value="5">5 Guests</option>
+
+              <option value="6">6 Guests</option>
+
+              <option value="7">7 Guests</option>
+
+              <option value="8">8 Guests</option>
+            </select>
+          </div>
+
+          <!-- MESSAGE -->
+
+          <div class="form-group">
+            <label for="message"> Special Request </label>
+
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Any special request?"
+            ></textarea>
+          </div>
+
+          <!-- BUTTON -->
+
+          <button type="submit" class="reserve-submit">
+            Request Reservation
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================= IMAGE CTA ================= -->
+
+    <section class="reserve-cta">
+      <div class="reserve-cta-overlay"></div>
+
+      <div class="reserve-cta-content">
+        <p class="eyebrow">GOOD FOOD. SLOW MOMENTS.</p>
+
+        <h2>
+          Come hungry.<br />
+          Leave happy.
+        </h2>
+
+        <a href="menu.html" class="secondary-button"> Explore Menu </a>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+      <div class="footer-brand">
+        <div class="logo footer-logo">
+          MORI
+
+          <span> CAFÉ </span>
+        </div>
+
+        <p>Good food. Slow moments.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Explore</h4>
+
+        <a href="index.html"> Home </a>
+
+        <a href="menu.html"> Menu </a>
+
+        <a href="about.html"> Our Story </a>
+
+        <a href="gallery.html"> Gallery </a>
+
+        <a href="locations.html"> Locations </a>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact</h4>
+
+        <a href="contact.html"> Contact Us </a>
+
+        <a href="contact.html"> Reserve Table </a>
+      </div>
+
+      <div class="footer-column">
+        <h4>Visit</h4>
+
+        <p>
+          Mon – Sun
+          <br />
+          8:00 AM – 11:00 PM
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 MORI CAFÉ. All rights reserved.</p>
+
+        <p>Crafted with HTML & CSS</p>
+      </div>
+    </footer>
+  </body>
+</html>
